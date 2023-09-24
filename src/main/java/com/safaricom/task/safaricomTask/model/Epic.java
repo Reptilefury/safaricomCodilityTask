@@ -20,7 +20,7 @@ public class Epic extends Task {
 
     @JoinColumn(name = "AUTHOR", referencedColumnName = "author")
     private String author;
-    @Column(name = "TASK_ID")
+
     @JoinColumn(name = "TASK_ID", referencedColumnName = "id")
     private long taskId;
 

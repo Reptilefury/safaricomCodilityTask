@@ -26,6 +26,7 @@ public class Document {
     @Enumerated(EnumType.STRING) // Specify the EnumType as STRING
     @Column(name = "DOC_TYPE") // Map to the column for docType
     private DocType docType;
+
     public enum DocType {
         REPORT, // Enum value for Report
         INVOICE // Enum value for Invoice

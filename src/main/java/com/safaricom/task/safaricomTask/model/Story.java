@@ -25,21 +25,4 @@ public class Story extends Task {
     private String author;
     @Column(name = "SPRINT_ID")
     private long sprintId;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
